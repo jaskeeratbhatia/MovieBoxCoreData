@@ -7,23 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5BBEBBEF1E9EA7AE00C8E832 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BBEBBED1E9EA7AE00C8E832 /* Main.storyboard */; };
 		5BE64CE51E90F1500064C481 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE64CE41E90F1500064C481 /* AppDelegate.swift */; };
-		5BE64CE71E90F1500064C481 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE64CE61E90F1500064C481 /* ViewController.swift */; };
-		5BE64CEA1E90F1500064C481 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BE64CE81E90F1500064C481 /* Main.storyboard */; };
+		5BE64CE71E90F1500064C481 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE64CE61E90F1500064C481 /* LoginViewController.swift */; };
 		5BE64CED1E90F1500064C481 /* MovieBoxCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5BE64CEB1E90F1500064C481 /* MovieBoxCoreData.xcdatamodeld */; };
 		5BE64CEF1E90F1500064C481 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BE64CEE1E90F1500064C481 /* Assets.xcassets */; };
 		5BE64CF21E90F1500064C481 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BE64CF01E90F1500064C481 /* LaunchScreen.storyboard */; };
+		5BE64CFA1E90F27C0064C481 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE64CF91E90F27C0064C481 /* SignupViewController.swift */; };
+		5BE64CFC1E90F3470064C481 /* DisplayListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE64CFB1E90F3470064C481 /* DisplayListViewController.swift */; };
+		5BE64CFE1E90F89C0064C481 /* AddMovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE64CFD1E90F89C0064C481 /* AddMovieViewController.swift */; };
+		5BE64D001E920E850064C481 /* DisplayDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE64CFF1E920E850064C481 /* DisplayDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5BBEBBEE1E9EA7AE00C8E832 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5BE64CE11E90F1500064C481 /* MovieBoxCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieBoxCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BE64CE41E90F1500064C481 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5BE64CE61E90F1500064C481 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5BE64CE91E90F1500064C481 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5BE64CE61E90F1500064C481 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		5BE64CEC1E90F1500064C481 /* MovieBoxCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MovieBoxCoreData.xcdatamodel; sourceTree = "<group>"; };
 		5BE64CEE1E90F1500064C481 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5BE64CF11E90F1500064C481 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5BE64CF31E90F1500064C481 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BE64CF91E90F27C0064C481 /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		5BE64CFB1E90F3470064C481 /* DisplayListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayListViewController.swift; sourceTree = "<group>"; };
+		5BE64CFD1E90F89C0064C481 /* AddMovieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddMovieViewController.swift; sourceTree = "<group>"; };
+		5BE64CFF1E920E850064C481 /* DisplayDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DisplayDetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +65,12 @@
 			isa = PBXGroup;
 			children = (
 				5BE64CE41E90F1500064C481 /* AppDelegate.swift */,
-				5BE64CE61E90F1500064C481 /* ViewController.swift */,
-				5BE64CE81E90F1500064C481 /* Main.storyboard */,
+				5BE64CE61E90F1500064C481 /* LoginViewController.swift */,
+				5BE64CFF1E920E850064C481 /* DisplayDetailsViewController.swift */,
+				5BE64CFD1E90F89C0064C481 /* AddMovieViewController.swift */,
+				5BE64CFB1E90F3470064C481 /* DisplayListViewController.swift */,
+				5BE64CF91E90F27C0064C481 /* SignupViewController.swift */,
+				5BBEBBED1E9EA7AE00C8E832 /* Main.storyboard */,
 				5BE64CEE1E90F1500064C481 /* Assets.xcassets */,
 				5BE64CF01E90F1500064C481 /* LaunchScreen.storyboard */,
 				5BE64CF31E90F1500064C481 /* Info.plist */,
@@ -99,6 +111,7 @@
 				TargetAttributes = {
 					5BE64CE01E90F1500064C481 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = EKM82MG69H;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -126,9 +139,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BBEBBEF1E9EA7AE00C8E832 /* Main.storyboard in Resources */,
 				5BE64CF21E90F1500064C481 /* LaunchScreen.storyboard in Resources */,
 				5BE64CEF1E90F1500064C481 /* Assets.xcassets in Resources */,
-				5BE64CEA1E90F1500064C481 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,19 +152,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BE64CE71E90F1500064C481 /* ViewController.swift in Sources */,
+				5BE64CFC1E90F3470064C481 /* DisplayListViewController.swift in Sources */,
+				5BE64CE71E90F1500064C481 /* LoginViewController.swift in Sources */,
 				5BE64CE51E90F1500064C481 /* AppDelegate.swift in Sources */,
+				5BE64CFA1E90F27C0064C481 /* SignupViewController.swift in Sources */,
+				5BE64D001E920E850064C481 /* DisplayDetailsViewController.swift in Sources */,
 				5BE64CED1E90F1500064C481 /* MovieBoxCoreData.xcdatamodeld in Sources */,
+				5BE64CFE1E90F89C0064C481 /* AddMovieViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5BE64CE81E90F1500064C481 /* Main.storyboard */ = {
+		5BBEBBED1E9EA7AE00C8E832 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5BE64CE91E90F1500064C481 /* Base */,
+				5BBEBBEE1E9EA7AE00C8E832 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -264,6 +281,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EKM82MG69H;
 				INFOPLIST_FILE = MovieBoxCoreData/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jb.MovieBoxCoreData;
@@ -276,6 +294,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = EKM82MG69H;
 				INFOPLIST_FILE = MovieBoxCoreData/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jb.MovieBoxCoreData;
@@ -303,6 +322,7 @@
 				5BE64CF81E90F1500064C481 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

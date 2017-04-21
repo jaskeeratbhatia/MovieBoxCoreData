@@ -1,4 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
-    <elements/>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11759" systemVersion="15G1217" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Movies" representedClassName="Movies" syncable="YES" codeGenerationType="class">
+        <attribute name="actorName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="actressName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="movieDuration" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="movieGenre" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="movieImage" optional="YES" attributeType="Transformable" syncable="YES"/>
+        <attribute name="movieName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="movieReleaseDate" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Users" representedClassName="Users" syncable="YES" codeGenerationType="class">
+        <attribute name="password" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userEmail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Movies" positionX="-63" positionY="-18" width="128" height="150"/>
+        <element name="Users" positionX="-63" positionY="36" width="128" height="90"/>
+    </elements>
 </model>
